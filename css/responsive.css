@@ -1,6 +1,12 @@
-@media screen and (max-width:400px){
+@media screen and (max-width:576px){
+    .nav{
+        margin-bottom: 5px;
+        width: 100%;
+    }
     .nav_container{
         flex-direction: column;
+        margin-top: 100px;
+        
     }
     .nav_items_container{
         flex-direction:column;
@@ -12,5 +18,114 @@
 
     
     
+    }
+    .nav_items_container .login_btn{
+        text-align: center;
+    }
+    .logo_container{
+        margin-right: 20px;
+    }
+    .logo_container img{
+    
+        width: 66px;
+    
+        margin-right: 10px;
+    }
+
+    /* Banner part design starts here */
+    .banner{
+        flex-direction: column-reverse;
+        /* margin-top: 100px;
+        margin: 0 auto;
+        background: #E6E6E6; */
+        align-items: center;
+        justify-content: space-between;
+        /* background: #E6E6E6; */
+        margin-top: 80px;
+        height: 700px;
+
+    
+    }
+    .banner_writing{
+        margin-left: 50px;
+        width: 100%;
+        /* height: 700px; */
+        /* margin: 0 auto; */
+        
+    }
+    .banner_writing_text{
+         margin-left: 100px;
+         margin-bottom: 50px;
+         /* height: 300px; */
+    }
+    .banner_pic{
+        width: 100%;
+        /* margin-left: 5px; */
+        /* height: 250px; */
+        margin-bottom: 30px;
+    }
+     .banner_pic img{
+       
+        width: 90%;
+        /* background: #E6E6E6; */
+        margin-left: 55px;
+        /* padding: 10px; */
+        /* height: 350px; */
+    }
+     .play{
+        color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+    .goat{
+        text-align: center;
+    font-family: Work Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .btn_sign_in{
+        text-decoration: none;
+        display: inline-flex;
+    padding: 11px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 15px;
+    }
+    .btn_go{
+        text-decoration: none;
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+        text-transform: uppercase;
+        display: inline-flex;
+    padding: 11px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
     }
 }

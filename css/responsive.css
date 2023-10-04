@@ -2,6 +2,7 @@
     .nav{
         margin-bottom: 5px;
         width: 100%;
+        margin-bottom: 50px;
     }
     .nav_container{
         flex-direction: column;
@@ -42,7 +43,7 @@
         justify-content: space-between;
         /* background: #E6E6E6; */
         margin-top: 80px;
-        height: 700px;
+        height: 850px;
 
     
     }
@@ -50,7 +51,7 @@
         margin-left: 50px;
         width: 100%;
         /* height: 700px; */
-        /* margin: 0 auto; */
+        margin: 0 auto;
         
     }
     .banner_writing_text{
@@ -62,7 +63,7 @@
         width: 100%;
         /* margin-left: 5px; */
         /* height: 250px; */
-        margin-bottom: 30px;
+        margin-top: 80px;
     }
      .banner_pic img{
        
@@ -128,4 +129,163 @@
     border-radius: 48px;
     background: #4EC5F7;
     }
+
+    /* vedio part start */
+
+    .video_container{
+        display: grid;
+        /* min-height: 400px; */
+        grid-template-columns: repeat(1,1fr);
+        /* gap: 5px; */
+    }
+    .playing{
+        flex-direction: column;
+      }
+      .playing_img{
+        position: relative;
+        /* height: 500px; */
+        width: 100%;
+        margin-left: 40px;
+      }
+      .playing .playing_img img{
+        width: 90%;
+        display: block;
+        /* height: 400px; */
+    
+      }
+      .playing_floating_img{
+        position: relative;
+        top: -195px;
+        right: 20px;
+        display: flex;
+        width: 50%;
+      }
+      .playing_writing{
+        width: 100%;
+        /* margin: 0 auto; */
+        text-align: center;
+        margin-top: 150px;
+        font-size: 20px;
+      }
+
+      /* button part starts here */
+
+      .button_part{
+        margin-top: 650px;
+      }
+      #responsive_none{
+        display: none;
+      }
+      .button_part_one{
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 30px;
+     
+      }
+
+      .button_part_two{
+
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 30px;
+ 
+        
+      }
+      .btn_img_span{
+        display: flex;
+      }
+    
+      .button_part_one .btn_img_span:hover{
+        border: 3px solid pink;
+        width: 200px;
+        height: 60px;
+        border-radius: 15px;
+        display: flex;
+      }
+      .button_part_two .btn_img_span:hover{
+        border: 3px solid pink;
+        width: 200px;
+        height: 60px;
+        border-radius: 15px;
+        display: flex;
+      }
+
+      /* footer part starts here */
+
+      .footer{
+        background-color: #3C354F;
+        margin-top:30px;
+        /* flex-direction: column; */
+      }
+      .footer_logo_container{
+        display: flex;
+        width: 100%;
+        /* height: 40px; */
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    
+    }
+    .footer_logo_container img{
+        
+      width: 86px;
+    
+      margin-right: 10px;
+    }
+    .footer_logo_text{
+      color: white;
+    }
+    .footer span{
+      text-align: center;
+      font-family: Work Sans;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+      .footer_writing{
+        align-items: center;
+        justify-content: space-around;
+        margin:20px 90px 40px;
+        color: white;
+    
+        display: grid;
+        /* min-height: 400px; */
+        grid-template-columns: repeat(3,2fr);
+        /* height: 80px; */
+    
+      }
+    
+      .footer_icon{
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        margin:20px 130px 10px;
+        color: white;
+        grid-template-columns: repeat(3,2fr);
+        height: 150px;
+      }
+      .footer_ending_text{
+        display: grid;
+        align-items: center;
+        justify-content: space-around;
+        margin:25px 100px 0px;
+        color: white;
+        grid-template-columns: repeat(2,2fr);
+      }
+      .footer_copyright_writing{
+        text-align: center;
+        padding-bottom: 40px;
+        color: white;
+        
+      }
+
+
+    
+
 }
